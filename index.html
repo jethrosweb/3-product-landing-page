@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Product Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header id="header">
+        <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_primary_large.jpg" alt="Logo" id="header-img" />
+        
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#products" class="nav-link">Products</a>
+          <a href="#testimonials" class="nav-link">Testimonials</a>
+        </nav>
+      </header>
+      
+      <div id="container"></div>
+      
+      <main id="wrapper">
+        
+        <section id="about">
+          <p>
+            FreeCodeCamp is a non-profit community that helps users learn to code by offering free interactive coding courses.
+            <br>
+            To find out more, please see there site <a href="https://www.freecodecamp.org/news/about/">here</a>.
+          </p>
+        </section>
+        
+        <section id="products">
+          <h3 class="section-title">Products</h3>
+          
+          <p id="products-text">FreeCodeCamp offer several free online coding courses</p>
+          
+          <h5>Featured courses:</h5>
+          
+          <div id="product-grid">
+            
+            <div class="grid-item">
+              <p class="grid-item_title">Responsive Web Design</p>
+              <p>Learn the languages that developers use to build websites!</p>
+              <p>HTML CSS</p>
+              <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" alt="Product logo" class="product-image"/>
+              <a href="https://www.freecodecamp.org/learn/responsive-web-design/">Find out more</a>
+            </div>
+            
+            <div class="grid-item">
+              <p class="grid-item_title">Javascript & Data Structures<p/>
+              <p>Learn the fundamentals of Javascript!</p>
+              <p>Loops Functions etc.</p>
+              <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" alt="Product logo" class="product-image"/>
+              <a href="https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/">Find out more</a>
+            </div>
+            
+            <div class="grid-item">
+              <p class="grid-item_title">Frontend Development Libraries</p>
+              <p>Learn the most popular frontend libraries!</p>
+              <p>Bootstrap React SASS</p>
+              <img src="https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.svg" alt="Product logo" class="product-image"/>
+              <a href="https://www.freecodecamp.org/learn/front-end-development-libraries/">Find out more</a>
+            </div>
+          </div>
+          
+          <p>FreeCodeCamp also offers several free online coding video tutorials.</p><br>
+          <p>We recommend starting with the below video:</p>
+            
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mU6anWqZJcc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        
+        <section id="testimonials">
+          <h3 class="section-title">Testimonials</h3>
+          
+          <div id="testimonial-grid">
+            <div class="grid-item">
+              <img src="https://st4.depositphotos.com/1000507/24488/v/600/depositphotos_244889634-stock-illustration-user-profile-picture-isolate-background.jpg" alt="Profile Picture" class="testimonial-image" />
+              <p class="testimonial-name">John Smith</p>
+              <p>These courses have taken me from zero to (code)hero!</p>
+              <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+            
+            <div class="grid-item">
+              <img src="https://st4.depositphotos.com/1000507/24488/v/600/depositphotos_244889634-stock-illustration-user-profile-picture-isolate-background.jpg" alt="Profile Picture" class="testimonial-image" />
+              <p class="testimonial-name">Jess Johnson</p>
+              <p>As a newbie coder these courses have made learning fun!</p>
+              <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+            
+            <div class="grid-item">
+              <img src="https://st4.depositphotos.com/1000507/24488/v/600/depositphotos_244889634-stock-illustration-user-profile-picture-isolate-background.jpg" alt="Profile Picture" class="testimonial-image" />
+              <p class="testimonial-name">Frankie Mohammad</p>
+              <p>The advanced courses have helped me to progress professionally!</p>
+              <p class="rating">⭐⭐⭐⭐⭐</p>
+            </div>
+          </div>
+          
+          <p id="testimonial-quote"><em>"Learning to code is the greatest super power you can have in 2022"</em></p>
+          
+        </section>
+        
+        <footer>
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <p id=footer-text>Sign up for more information below:</p>
+            <input type="email" id="email" name="email" placeholder="Enter email here"><br>
+            <input type="submit" id="submit" value="Submit">
+          </form>
+        </footer>
+      </main>
+    
+</body>
+</html>
